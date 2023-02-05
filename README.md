@@ -1,16 +1,16 @@
-# Welcome to Cloudcash!
+<div align="center">  
+    <img height="50"src="./src/assets/codux.svg">  
+    <h1 >Cloudcash</h1>
+</div>
 
-Cloudcash is an imaginary financial technology company. This project is a demo project for Codux.
+### A Visual IDE for React Projects
 
----
+Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
 
-### Working in Codux
+### Take it for a Spin
 
-Use **Add local project** or **Add GitHub project**
+Cloudcash is an imaginary financial technology company. You can edit the components that make up their web application. It's a great way to explore how Codux works.
 
----
-
-### Running the project in development mode in other IDEs
-
-Run `npm start`
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   Learn how to edit, render and compose apps that make use of React-based components.
+-   Create React-based components with TypeScript, SCSS and CSS Modules support.
+-   Visually edit in real-time and in an isolated environment.
