@@ -1,5 +1,5 @@
 <div align="center">  
-    <img height="50"src="./src/assets/codux.svg">  
+    <img height="50"src="./src/assets/images/codux.svg">  
     <h1 >Cloudcash</h1>
 </div>
 
