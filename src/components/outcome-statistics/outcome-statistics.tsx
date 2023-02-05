@@ -1,11 +1,7 @@
 import { OutcomeStatisticsItem } from './outcome-statistics-item/outcome-statistics-item';
 import styles from './outcome-statistics.module.scss';
 
-interface OutcomeStatisticsProps {
-    children?: React.ReactNode;
-}
-
-export const OutcomeStatistics = ({ children }: OutcomeStatisticsProps) => {
+export const OutcomeStatistics = () => {
     return (
         <div className={styles.root}>
             <h2 className={styles.title}>Outcome Statistics</h2>

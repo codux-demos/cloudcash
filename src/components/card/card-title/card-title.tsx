@@ -7,10 +7,5 @@ interface CardTitleProps extends HTMLAttributes<HTMLHeadingElement> {
 }
 
 export const CardTitle = ({ className, children }: CardTitleProps) => {
-    return (
-        <h2 className={classNames(styles.root, className)}>
-            {children}
-            <div></div>
-        </h2>
-    );
+    return <h2 className={classNames(styles.root, className)}>{children}</h2>;
 };

@@ -5,14 +5,12 @@ interface ProgressBarProps {
     className?: string;
     customFillClassName?: string;
     progress: number;
-    children?: React.ReactNode;
 }
 
 export const ProgressBar = ({
     className,
     customFillClassName,
     progress,
-    children,
 }: ProgressBarProps) => {
     const fill = { width: `${progress}%` } as React.CSSProperties;
     return (

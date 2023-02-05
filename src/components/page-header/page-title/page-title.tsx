@@ -1,4 +1,4 @@
-import { FC, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import classNames from 'classnames';
 import styles from './page-title.module.scss';
 

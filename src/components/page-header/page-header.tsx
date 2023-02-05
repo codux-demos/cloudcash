@@ -24,7 +24,7 @@ const PageHeader = ({ className, children }: PageHeaderProps) => {
                         glyph="mail"
                         label="Messages"
                         onClick={() => alert('Placeholder: Display messages')}
-                    ></StatusBadgeIconButton>
+                    />
                     <StatusBadgeIconButton
                         glyph="notifications"
                         label="Notifications"
@@ -32,10 +32,10 @@ const PageHeader = ({ className, children }: PageHeaderProps) => {
                         onClick={() =>
                             alert('Placeholder: Display notifications')
                         }
-                    ></StatusBadgeIconButton>
+                    />
                 </div>
                 <div className={styles.userSection}>
-                    <div className={styles.avatar}></div>
+                    <div className={styles.avatar} />
                     <div className={styles.userDetails}>
                         <span>Andrew</span>
                         <span className={styles.userAccountType}>

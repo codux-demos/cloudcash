@@ -9,7 +9,6 @@ interface CreditCardSvgProps {
     cardHolderName: string;
     expireDateMonth: string;
     expireDateYear: string;
-    children?: React.ReactNode;
 }
 
 export const CreditCardSvg = ({
@@ -20,7 +19,6 @@ export const CreditCardSvg = ({
     cardHolderName,
     expireDateMonth,
     expireDateYear,
-    children,
 }: CreditCardSvgProps) => {
     return (
         <div className={classNames(styles.root, className)}>

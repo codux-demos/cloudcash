@@ -5,10 +5,9 @@ import styles from './cards.module.scss';
 
 interface CardsProps {
     className?: string;
-    children?: React.ReactNode;
 }
 
-export const Cards = ({ className, children }: CardsProps) => {
+export const Cards = ({ className }: CardsProps) => {
     return (
         <Card className={className}>
             <Card.Title>Cards</Card.Title>
@@ -44,9 +43,6 @@ export const Cards = ({ className, children }: CardsProps) => {
                         amount={350.2}
                         trend="negative"
                     />
-                    <div className={styles.deactivateCardSection}>
-                        {/* Deactivate Card Switch */}
-                    </div>
                 </div>
             </Card.Content>
         </Card>

@@ -8,7 +8,6 @@ interface ProgressProps {
     value: number;
     max?: number;
     label?: string;
-    children?: React.ReactNode;
 }
 
 export const Progress = ({
@@ -17,7 +16,6 @@ export const Progress = ({
     value,
     max = 100,
     label,
-    children,
 }: ProgressProps) => {
     const progressValue = calculateProgress(value, max);
 

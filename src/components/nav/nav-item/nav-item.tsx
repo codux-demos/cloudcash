@@ -10,6 +10,7 @@ export interface NavItemProps {
 export const NavItem = ({ className, children, selected }: NavItemProps) => {
     return (
         <a
+            href="#0"
             tabIndex={selected ? -1 : undefined}
             aria-current={selected ? true : undefined}
             className={classNames(

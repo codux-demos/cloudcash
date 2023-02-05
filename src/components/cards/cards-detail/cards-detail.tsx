@@ -8,7 +8,6 @@ interface CardsDetailProps {
     amount: number;
     trend?: 'positive' | 'negative' | 'neutral';
     emphasized?: boolean;
-    children?: React.ReactNode;
 }
 
 export const CardsDetail = ({
@@ -18,7 +17,6 @@ export const CardsDetail = ({
     trend = 'neutral',
     emphasized = false,
     className,
-    children,
 }: CardsDetailProps) => {
     const formattedAmount = new Intl.NumberFormat(undefined, {
         style: 'decimal',

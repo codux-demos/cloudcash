@@ -5,11 +5,7 @@ import holidaysImageUrl from '../../assets/images/illustrations/mountain.svg';
 import renovationImageUrl from '../../assets/images/illustrations/brush.svg';
 import xboxImageUrl from '../../assets/images/illustrations/controller.svg';
 
-interface GoalProps {
-    children?: React.ReactNode;
-}
-
-export const Goals = ({ children }: GoalProps) => {
+export const Goals = () => {
     const goals = [
         {
             title: 'Holidays',

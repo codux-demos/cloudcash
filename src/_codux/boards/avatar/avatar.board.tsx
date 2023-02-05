@@ -16,7 +16,7 @@ export default createBoard({
                     description="No userName or profilePic provided"
                     contentLayout="inline"
                 >
-                    <Avatar />
+                    <Avatar userName={'ddd rrr xx dff'} />
                 </DocSection>
                 <DocSection
                     title="Initials"

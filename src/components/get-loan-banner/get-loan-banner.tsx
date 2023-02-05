@@ -4,10 +4,9 @@ import styles from './get-loan-banner.module.scss';
 
 interface GetLoanBannerProps {
     className?: string;
-    children?: React.ReactNode;
 }
 
-export const GetLoanBanner = ({ className, children }: GetLoanBannerProps) => {
+export const GetLoanBanner = ({ className }: GetLoanBannerProps) => {
     return (
         <a href="#0" className={classNames(styles.root, className)}>
             <div>
