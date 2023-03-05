@@ -1,0 +1,19 @@
+@import '../../styles/color';
+@import '../../styles/type';
+
+.root {
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.08))
+        drop-shadow(0 3px 6px rgba(0, 0, 0, 0.1))
+        drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
+}
+
+.creditCard {
+    background-color: #197bbd;
+    background-image: url('https://static.wixstatic.com/shapes/68d3a9_6991670a9bbb4531b2144ebba6c57c01.svg'),
+        linear-gradient(#197bbd, #3391d0);
+    background-size: cover;
+    color: $color-white;
+    aspect-ratio: 320/206; //Credit card ratio
+    border-radius: 2rem;
+    font-feature-settings: 'cv10', 'cv11', 'ss01';
+}
