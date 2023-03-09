@@ -2,9 +2,12 @@ import classNames from 'classnames';
 import Nav from '../nav/nav';
 import { Icon } from '../icon/icon';
 import { Button } from '../button/button';
-import logo from '../../assets/images/logo.svg';
-import upgradeTeaser from '../../assets/images/illustrations/sidebar-footer-upgrade.svg';
 import styles from './sidebar.module.scss';
+
+const logo =
+    'https://static.wixstatic.com/shapes/610b66_0f8db3b01d974d6eb901be219f385e3f.svg'; // logo.svg (135x34)
+const upgradeTeaser =
+    'https://static.wixstatic.com/shapes/610b66_18689aa2b4264e318355751f25a15cce.svg'; // sidebar-footer-upgrade.svg (67x75)
 
 interface SidebarProps {
     className?: string;

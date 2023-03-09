@@ -3,7 +3,9 @@ import { Avatar } from '../../../components/avatar/avatar';
 import { Doc } from '../../../util-components/documentation/doc';
 import { DocHeader } from '../../../util-components/documentation/doc-header';
 import { DocSection } from '../../../util-components/documentation/doc-section';
-import profilePic from '../../../assets/images/profile-pics/john.jpg';
+
+const profilePic =
+    'https://static.wixstatic.com/media/610b66_53f3f8e1960d4721b3f00429c8f4d653~mv2.jpg'; // john.jpg (80x80)';
 
 export default createBoard({
     name: '📒 Avatar',
