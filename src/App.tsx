@@ -7,7 +7,7 @@ import { TransactionHistory } from './components/transaction-history/transaction
 import PageHeader from './components/page-header/page-header';
 import { NewTransaction } from './components/new-transaction/new-transaction';
 import { GetLoanBanner } from './components/get-loan-banner/get-loan-banner';
-import styles from './App.module.scss';
+import styles from './app.module.scss';
 
 function App() {
     return (
