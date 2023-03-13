@@ -1,7 +1,7 @@
-@import "../../styles/spacing";
+@import '../../styles/spacing';
 
 .root {
-  display: flex;
-  flex-direction: column;
-  row-gap: $spacing-0-5;
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-0-5;
 }
