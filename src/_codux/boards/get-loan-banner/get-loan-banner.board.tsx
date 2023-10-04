@@ -9,5 +9,5 @@ export default createBoard({
             <GetLoanBanner />
         </div>
     ),
-    environmentProps: {},
+    isSnippet: true,
 });

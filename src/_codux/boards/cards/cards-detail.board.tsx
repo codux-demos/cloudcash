@@ -108,4 +108,5 @@ export default createBoard({
             top: 0,
         },
     },
+    isSnippet: true,
 });

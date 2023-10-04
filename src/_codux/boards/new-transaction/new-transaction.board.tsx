@@ -4,4 +4,5 @@ import { NewTransaction } from '../../../components/new-transaction/new-transact
 export default createBoard({
     name: '🧩 New Transaction',
     Board: () => <NewTransaction />,
+    isSnippet: true,
 });
