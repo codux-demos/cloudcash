@@ -21,4 +21,5 @@ export default createBoard({
         canvasWidth: 679,
         windowBackgroundColor: '#f1f1f1',
     },
+    isSnippet: true,
 });

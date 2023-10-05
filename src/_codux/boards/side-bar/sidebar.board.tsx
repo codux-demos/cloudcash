@@ -4,4 +4,5 @@ import { Sidebar } from '../../../components/sidebar/sidebar';
 export default createBoard({
     name: 'Sidebar',
     Board: () => <Sidebar />,
+    isSnippet: true,
 });

@@ -25,4 +25,5 @@ export default createBoard({
             bottom: 1,
         },
     },
+    isSnippet: true,
 });
