@@ -33,6 +33,10 @@ export const Goals = () => {
             currency: 'USD',
         },
     ];
+
+    const surprisePropStr = 'Am I a prop?';
+    const surprisePropNumber = 55;
+
     return (
         <div className={styles.root}>
             <div className={styles.header}>
@@ -57,6 +61,8 @@ export const Goals = () => {
                     )
                 )}
             </ul>
+            <div>{surprisePropStr}</div>
+            <div>{surprisePropNumber}</div>
         </div>
     );
 };
