@@ -1,17 +1,7 @@
+import type { Manager, SimpleEmployee } from '../union-objects/union-objects';
 import styles from './worker-person.module.scss';
 import classNames from 'classnames';
 
-interface SimpleEmployee {
-    name: string;
-    age: number;
-    managersName: string;
-}
-
-interface Manager {
-    name: string;
-    age: number;
-    employees: SimpleEmployee[];
-}
 
 export interface WorkerProps {
     className?: string;
@@ -32,8 +22,10 @@ export const WorkerPerson = ({
         <div key={workerKey} className={classNames(styles.root, className)}>
             <div key={workerProps.name} className={styles.gridItem}>
                 <h2>Name: {workerProps.name}</h2>
+                <h3>Title: {workerProps.title}</h3>
                 <h4>Age: {workerProps.age}</h4>
-                {workerProps.hasOwnProperty('employees') && <h6>Employs:</h6>}
+                <br/>
+                {workerProps.hasOwnProperty('employees') ? <h6>Employs:</h6> : <h6>Manager:</h6>}
                 <ul>
                     {workerProps.hasOwnProperty('employees') ? (
                         (workerProps as Manager).employees.map(({ name }) => (

@@ -7,13 +7,15 @@ export interface UnionObjectsProps {
     children?: React.ReactNode;
 }
 
-interface SimpleEmployee {
+export interface SimpleEmployee {
+    title: string;
     name: string;
     age: number;
     managersName: string;
 }
 
-interface Manager {
+export interface Manager {
+    title: string;
     name: string;
     age: number;
     employees: SimpleEmployee[];
@@ -22,15 +24,16 @@ interface Manager {
 export const UnionObjects = ({ className }: UnionObjectsProps) => {
     const workers: (SimpleEmployee | Manager)[] = [
         {
+            title: 'manager',
             name: 'Mia',
             age: 35,
             employees: [
-                { name: 'Ann', age: 25, managersName: 'Mia' },
-                { name: 'Lily', age: 30, managersName: 'Mia' },
+                {title:'employer', name: 'Ann', age: 25, managersName: 'Mia' },
+                { title:'employer',name: 'Lily', age: 30, managersName: 'Mia' },
             ],
         },
-        { name: 'Ann', age: 25, managersName: 'Mia' },
-        { name: 'Lily', age: 30, managersName: 'Mia' },
+        { title:'employer', name: 'Ann', age: 25, managersName: 'Mia' },
+        { title:'employer',name: 'Lily', age: 30, managersName: 'Mia' },
     ];
 
     return (
