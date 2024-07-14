@@ -11,6 +11,8 @@
     color: $color-secondary;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    column-gap: $spacing-2;
 
     &:hover {
         background-color: $color-lightest-blue;
@@ -22,9 +24,6 @@
         background-color: $color-focus;
         color: $color-background;
     }
-
-    display: flex;
-    column-gap: $spacing-2;
 }
 
 .selected {
