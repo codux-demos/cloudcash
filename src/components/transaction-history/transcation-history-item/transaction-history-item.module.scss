@@ -5,9 +5,9 @@
 @import '../../../styles/spacing';
 
 .root {
-    @include transaction-list-grid;
     padding-top: $spacing-1-5;
     padding-bottom: $spacing-1-5;
+    @include transaction-list-grid;
 
     &:not(:last-child) {
         box-shadow: 0 -1px 0 0 $color-divider inset;
