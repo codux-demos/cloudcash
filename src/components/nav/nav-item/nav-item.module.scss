@@ -1,32 +1,32 @@
-@import '../../../styles/color';
-@import '../../../styles/spacing';
-@import '../../../styles/radius';
+@use '../../../styles/color' as color;
+@use '../../../styles/spacing' as spacing;
+@use '../../../styles/radius' as radius;
 
 .root {
-    padding-top: $spacing-1;
-    padding-bottom: $spacing-1;
-    padding-left: $spacing-1-5;
-    padding-right: $spacing-1-5;
-    border-radius: $radius-small;
-    color: $color-secondary;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
-    column-gap: $spacing-2;
+  padding-top: spacing.$spacing-1;
+  padding-bottom: spacing.$spacing-1;
+  padding-left: spacing.$spacing-1-5;
+  padding-right: spacing.$spacing-1-5;
+  border-radius: radius.$radius-small;
+  color: color.$color-secondary;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  column-gap: spacing.$spacing-2;
 
-    &:hover {
-        background-color: $color-lightest-blue;
-        color: $color-accent;
-    }
+  &:hover {
+    background-color: color.$color-lightest-blue;
+    color: color.$color-accent;
+  }
 
-    &:focus-visible {
-        outline: none;
-        background-color: $color-focus;
-        color: $color-background;
-    }
+  &:focus-visible {
+    outline: none;
+    background-color: color.$color-focus;
+    color: color.$color-background;
+  }
 }
 
 .selected {
-    background-color: $color-lightest-blue;
-    color: $color-accent;
+  background-color: color.$color-lightest-blue;
+  color: color.$color-accent;
 }

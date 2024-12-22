@@ -1,9 +1,9 @@
-@import '../../../styles/color';
-@import '../../../styles/type';
+@use '../../../styles/color' as color;
+@use '../../../styles/type' as type;
 
 .root {
-    font: $type-body-large;
+  font: type.$type-body-large;
 
-    display: block;
-    color: $color-secondary;
+  display: block;
+  color: color.$color-secondary;
 }
