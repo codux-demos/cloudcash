@@ -1,6 +1,6 @@
-@import '../../../styles/type';
+@use '../../../styles/type' as *;
 
 .root {
-    font: $type-heading-medium;
-    font-weight: 600;
+  font: $type-heading-medium;
+  font-weight: 600;
 }

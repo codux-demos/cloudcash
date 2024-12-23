@@ -1,7 +1,7 @@
-@import '../../../styles/color';
-@import '../../../styles/type';
+@use '../../../styles/color' as color;
+@use '../../../styles/type' as type;
 
 .root {
-    font: $type-body-medium;
-    color: $color-secondary;
+  font: type.$type-body-medium;
+  color: color.$color-secondary;
 }

@@ -1,27 +1,27 @@
-@import '../../../styles/color';
-@import '../../../styles/type';
-@import '../../../styles/radius';
+@use '../../../styles/color' as color;
+@use '../../../styles/type' as type;
+@use '../../../styles/radius' as radius;
 
 .button {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
 .description {
-    font: $type-body-micro;
-    font-weight: 400;
-    color: rgba($color-primary, 0.75);
+  font: type.$type-body-micro;
+  font-weight: 400;
+  color: rgba(color.$color-primary, 0.75);
 }
 
 .customButtonColor {
-    background-color: $color-positive;
-    color: $color-background;
+  background-color: color.$color-positive;
+  color: color.$color-background;
 }
 
 .customButtonShape {
-    border-radius: $radius-pill;
+  border-radius: radius.$radius-pill;
 }
 
 .customButtonStyle {
-    background-color: transparent;
-    box-shadow: 0 0 0 1px $color-divider inset;
+  background-color: transparent;
+  box-shadow: 0 0 0 1px color.$color-divider inset;
 }

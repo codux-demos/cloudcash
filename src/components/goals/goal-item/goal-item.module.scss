@@ -1,37 +1,36 @@
-@import '../../../styles/color';
-@import '../../../styles/radius';
-@import '../../../styles/spacing';
-@import '../../../styles/type';
+@use '../../../styles/color' as color;
+@use '../../../styles/radius' as radius;
+@use '../../../styles/spacing' as spacing;
+@use '../../../styles/type' as type;
 
 .root > a {
-    display: block;
-    height: 100%;
-    padding-top: $spacing-1-5;
-    padding-bottom: $spacing-1-5;
-    padding-left: $spacing-3;
-    padding-right: $spacing-3;
-    border-radius: $radius-card;
-    background-color: $color-background;
-    box-shadow: 0px 16px 24px rgba($color-black, 0.06),
-        0px 2px 6px rgba($color-black, 0.04),
-        0px 0px 1px rgba($color-black, 0.04);
+  display: block;
+  height: 100%;
+  padding-top: spacing.$spacing-1-5;
+  padding-bottom: spacing.$spacing-1-5;
+  padding-left: spacing.$spacing-3;
+  padding-right: spacing.$spacing-3;
+  border-radius: radius.$radius-card;
+  background-color: color.$color-background;
+  box-shadow: 0px 16px 24px rgba(color.$color-black, 0.06),
+    0px 2px 6px rgba(color.$color-black, 0.04), 0px 0px 1px rgba(color.$color-black, 0.04);
 }
 
 .title {
-    font: $type-heading-medium;
-    font-weight: 400;
+  font: type.$type-heading-medium;
+  font-weight: 400;
 }
 
 .amount {
-    font: $type-heading-medium;
-    font-weight: 500;
+  font: type.$type-heading-medium;
+  font-weight: 500;
 }
 
 .date {
-    font: $type-body-medium;
-    color: $color-secondary;
+  font: type.$type-body-medium;
+  color: color.$color-secondary;
 }
 
 .illustration {
-    margin-top: $spacing-4;
+  margin-top: spacing.$spacing-4;
 }
